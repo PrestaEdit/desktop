@@ -109,6 +109,7 @@ export default {
             });
         });
     },
+    afterPack: 'build/linux-appimage-sandbox.js',
     afterSign: 'build/notarize.js',
     win: {
         executableName: fileName,
